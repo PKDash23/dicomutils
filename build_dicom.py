@@ -1,4 +1,5 @@
 #!/home/dash/anaconda3/envs/py2/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import numpy as np
