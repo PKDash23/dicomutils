@@ -31,3 +31,4 @@ pip-log.txt
 
 # Emacs temp files
 *~
+.idea/*

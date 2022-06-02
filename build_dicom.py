@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/home/dash/anaconda3/envs/py2/bin/python
 # -*- coding: utf-8 -*-
 
 import numpy as np
-import dicom
+import pydicom
 import time
 import uuid
 import sys
@@ -11,8 +11,8 @@ import os
 import coordinates
 from builders import StudyBuilder, TableTop, TableTopEcc
 # Be careful to pass good fp numbers...
-if hasattr(dicom, 'config'):
-    dicom.config.allow_DS_float = True
+if hasattr(pydicom, 'config'):
+    pydicom.config.allow_DS_float = True
 
 import argparse
 
